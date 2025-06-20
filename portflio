@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .project-card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      flex: 1 1 250px;
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: #aaa;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .profile img {
+      width: 120px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aditya K</h1>
+    <p>Web Developer | IT Engineering Student | Database Enthusiast</p>
+  </header>
+
+  <div class="container">
+
+    <div class="profile">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK0AAACUCAMAAADWBFkUAAAAMFBMVEXk5ueutLenrrHg4+Tn6eqqsLSxt7rq7O26v8LGyszd4OHR1NbY29zBxsjV2Nq0urz6zFdmAAAD+0lEQVR4nO2c2XajMAxAWWTjDfj/vx0TkjZJW2JLRjJnfF+mp0/3aITkRW7XNRqNRqPRaDQajUajIQyAtEEa0zS5sETcOE01O0M3Om/6YRhUJP6jZ++2X1cIdMGuveqfidLGhvrSAiZv9KvqQ1ibUFtKLL+qPozXUJEuBHPguukOs6vFF/xRYO++2leiaz6p7sw16Lr1Y2Dv4TXy2RDWNNeNVVgXXLprRIu2CnCJWfCl6yRlM9Jgx4xyuonV4EV3EnKd5sw82BisTOpCGPJlIzJdeMxO2h0jIQsWJ9srL2AbkLIR/roAM1pW8X9oDveJyQR3QpTab7iDO1JkuTsauiDsqIU3uB+2Np9sZ05XCJoU27h05LT1pNDG1ULg1MWsZ55hLbkjMRHipodx4ThSWsMeXMbYLnRbvsQFS0zbCN9hCGrT8AbfZ0ZbJOzwndxMyF3DM4bPli7bbJstv+21vrJrVbBLdYdrdd7OX2lVQztM2G0vtRrXnMe4+GOlOzOjLX0XufDJxh06NbashzUjsT+wnn6QT5aYL33zbvXeWZmvza51IkprEOw3kkAILmexvXOpWxJ8P1NWQBYccrEgczENyHUj8yn+l+6VbqW3/puvK3bjj7l+WAWnKbIv/TXrfcMP3SUrF5T00NKSkQxafpwx9KnhrWH2MnaJJF0lOa70BNiEbNBidfadjxOt/WAqyIIH0Pmj7FW9r2t6HA7SYfUVTo53ftZKvY+5r3NlcX0AnVvs2u8PCLYnBMrYxdXpeif+pwfvrfc+jPUlwCtwY9rYf5QW+oPoGDMhLDGodif+tIQY4E1c2u4ZgDH4edW/VgW9xuytIym2pzmLNbcv66Dexi8u1oYg+sUBOG/Nj6r1p3K/Gcs85oKp82v+rldr67hf7cQE8OuAPHEeeutGPmEYt66FU72hemOZdhFxRfD+jAyDnh3D7ne05NunO8qcXCPA2QJh/WYO5/lCZ1NfECWi9HzWKh2WoqYPTtkBgTOlEvYVpYsvgI+2BnRM2fIL1PuxD+iSp6TgT3Xtb8POpXxLDE981C30DBHIo8FpukUOySD5lSbZl36dmnrKVYKBqssX2Rs0Xc7IbpCSAcaia5gECMkA2Nd5FPB9gva8BQmykHE0hZ8ojTpCJ88lYXUx85hAn1DDgvnSzl11HYG4Ajx92fU3iNdnYnmw6WZO4k0i9eCbvMylPdKkk7W1JDwtLkPWYED+X3EoTUYVk+liL2RcCp+8w00iveYG8dBmPPOsIBHiSjfVdpLsDA+G5B37OQdemSSmgtRS8Y3EZ0eoEbryJDaIEi+cCpB6diPeyG4knjtiJ1VLk9R8Ydn+lGIFJBYFN9ZBkmzjv+QfEsU4auaNFxoAAAAASUVORK5CYII=" alt="Profile Photo">
+      <p>Email: <a href="adityak1609@example.com">you@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+    </div>
+
+    <div class="section">
+      <h2>About Me</h2>
+      <p>I’m an IT engineering student passionate about web development and databases. I’m currently interning in SQL database management and looking to explore backend and full-stack development.</p>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Student Result System</h3>
+          <p>A web app that allows students to view academic results. Built using HTML, CSS, JS, and MySQL.</p>
+        </div>
+        <div class="project-card">
+          <h3>Personal Portfolio</h3>
+          <p>This very site showcasing my profile and projects. Built with pure HTML and CSS.</p>
+        </div>
+        <div class="project-card">
+          <h3>SQL Internship Tasks</h3>
+          <p>Worked on cleaning and querying transactional data using advanced SQL operations.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>SQL (MySQL, PostgreSQL)</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Version Control (Git)</li>
+        <li>Web Hosting Basics</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Aditya K.
+  </footer>
+
+</body>
+</html>
