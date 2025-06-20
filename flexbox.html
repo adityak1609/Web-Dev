@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike. Just Do It.</title>
+    <style>
+        .navlinks {
+           display: flex; gap: 40px; font-size: 18px;
+        }
+        .navlinks a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .navlinks a:hover {
+            color:gray;
+            text-decoration:double;
+        }
+        .left-box {
+            flex: 2;
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 10px;
+            height: 420px;
+            width: 50%;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .right-box {
+            flex: 1;
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 10px;
+            height: 170px;
+            margin-left: 20px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .Products {
+            display: flex;
+            justify-content: space-around;
+            background-color: azure;
+            margin-top: 20px;
+        }
+        .Products a {
+            color:black;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .Products a:hover {
+            color: darkgray;
+            text-decoration: wavy;
+            transition: color 0.3s;
+            
+        }
+        .right-boxes {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+
+        }
+        .content {
+            display: flex;
+      padding: 40px;
+      gap: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+  <div style="background-color: black; border-radius: 10px; height: 60px; color: white; display: flex; justify-content: space-between; align-items: center; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-style: italic; padding: 0 60px;">
+    
+    <!-- Left: Logo + Brand -->
+    <div style="display: flex; align-items: center;">
+      <img src="data:image/jpeg;base64,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" height="30" style="margin-right: 15px;">
+      | Nike
+    </div>
+
+    <!-- Right: Navigation Links -->
+    <div class="navlinks">
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    </div>
+    <div class="Products">
+        <a href="#">Running</a>
+        <a href="#">Walking</a>
+        <a href="#">Sports</a>
+        <a href="#">Casual</a>
+        <a href="#">Special Edition</a>
+    </div>
+    <div class="content">
+        <div class="left-box">
+            <h2>Long Box</h2>
+            <p>This is the larger content area on the left side of the page.</p>
+        </div>
+        <div class="right-boxes">
+        <div class="right-box">
+            <h2>Small Box</h2>
+            <p>Smaller content area on left side of the page.</p>
+        </div>
+         <div class="right-box">
+            <h2>Small Box</h2>
+            <p>Smaller content area on left side of the page.</p>
+    </div>
+    <div class="right-box">
+            <h2>Small Box</h2>
+            <p>Smaller content area on left side of the page.</p>
+    </div>
+    <div class="right-box">
+            <h2>Small Box</h2>
+            <p>Smaller content area on left side of the page.</p>
+    </div>
+    </div>
+</body>
+</html>
